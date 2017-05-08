@@ -1,138 +1,159 @@
 (tempo! 120)
 
-piano "piano1": o3
+# Based on Marioverehrer and Jester Musician arrangement.
+# https://www.youtube.com/watch?v=wd-cjvl-sGg
+# https://www.youtube.com/watch?v=G1ZTF0iQYu0
 
-#a+16 > c+ c c+ < a+ r a+ > c c+ g+ f r < |
-#a+16 > c+ c c+ < a+ r a+ > c c+ g+ f r < |
-#a+16 > c+ c c+ < a+ r a+ > c c+ g+ f r < |
-#> d+8 b+ a+ g+16 f+ f8 g+ |
-#
-#< a+16 > c+ c c+ < a+ r a+ > c c+ g+ f r < |
-#a+16 > c+ c c+ < a+ r a+ > c c+ g+ f r < |
-#a+16 > c+ c c+ < a+ r a+ > c c+ g+ f r < |
-#> d+8 b+ a+ g+16 f+ f8 g+ |
-#
-#b-2 f8 g+ b-4 |
-#o5 c+8 d+16 c+ c8 c+ |
-#< a+2 |
-#r r |
-#
-#o3 a+16 > c+ c c+ < a+ r a+ > c c+ g+ f r < |
-#a+16 > c+ c c+ < a+ r a+ > c c+ g+ f r < |
-#a+16 > c+ c c+ < a+ r a+ > c c+ g+ f r < |
-#> d+8 b+ a+ g+16 f+ f8 g+ |
-#
-#< a+16 > c+ c c+ < a+ r a+ > c c+ g+ f r < |
-#a+16 > c+ c c+ < a+ r a+ > c c+ g+ f r < |
-#> d+16 f g+ a+ b+ >c+ d+ c+ < b+ a+ g+ f
-#d+8 b+ a+ g+16 f+ f8 g+ |
-#
-#b-2 f8 g+ b-4 |
-#o5 c+8 d+16 c+ c8 c+ |
-#o4 c+2./a+
-#o4 c4. c+8/f f/a+ a+/>c+
-#
-#o5 c+2/f < a+8/>c+ c+/d+
-#o5 c4/f < a+8/>d+ < g+16/>c+ < f+/>d+ < f8/>c < d+/g+
-#o4 f2/a+ c+/a+8 d+/>c+
-#o4 f4/>c < d+8/a+ c+16/g+ d+/f+ c8/f d+
-#
-#
-##29-32
-#o4 c+2/f a+8/>c+ c/d+
-#o5 c+4/f c8/d+ < a+16/>c+ < g+/>d+ <f8/>c < c+/g+
-#o4 f4./a+2 < b4./>d+
-#o4 d+4./f+ c+/>c+
-#
-#
-##33-36
-#o4 b4./>d+16 d+ r d+ r d+ < a+4./>d+16 r d+ r d+ r
-#o4 g+4./>d+16 d+ r d+ r d+ < f+4./>d+16 r f+ r g+ r
-#o2 r4 r4 r4
-#o2 r4 r4 r4
-#
-##37-40
-#o5 e32 f f+ g g+8 g+ g g g
-#o5 r32 r e64 f f+ g g+8 g+16 r g+8 g16 f d+8
-#o5 f24 r f r f r f r f r f r f r f r f r
-#o4 r4 r4 r4
-#
-##41-44
-#o5 e32 f f+ g g+8 g+ g g g
-#o3 d+8/>d+ c/>c < c+/a+ c/g+16 f+ < g+8/>f < g+/>g+
-#o4 a+4 b8 > d+ c+ d+
-#o5 f4 d+8 f+ f d+
-#
-##45-48
-#o5 f4 f+8 f16 f+ d+8 f
-#o5 c+4 d+8 c16 c+ < a+8 g+
-#o4 f4 f+8 g+4 a+8
-#o4 f4 f+8 g+4 a+8
-#
-##49-52
-#o4 f16 f+ f4 > g16 r g r g8
-#o5 r32 r e64 f f+ g g+8 g+16 r g+8 g16 f d+8
-#V1: o4 a+4 b8 > d+ c+ d+
-#V2: (volume 80) o5 f24 r f r f r f r f r f r f r f r f r
-#(volume 100) o5 f4 d+8 f+ f d+
-#
-##53-56
-#o5 f4 f+8 f16 f+ d+8 f
-#o5 c+4 d+8 c16 c+ < a+8 g+
-#o4 f4 f+8 g+4 a+8
-#o4 f4 f+8 g+4 a+8
-#
-##57-60
-#o4 f16 f+ f2~8
-#o3 g+8/>d+ d+/>c < c+/a+ c16/g+ < a+/>f+ < g+8/>f c+/g+
-#o4 c+2/a+ f8 g+
-#o4 d+4/a+ > c+8 < g+/>d+16 c+ < f8/>c < d+/>c+
-#
-##61-64
-#o4 c+2./a+
-#o4 c4. c+8/f f/a+ f+/>c+
-#o5 c+2/f < a+/>c+8 c+/d+
-#o5 c4/f < a+8/>d+ < g+16/>c+ < f+/>d+ < f8/>c < d+/g+
-#
-##65-58
-#o4 f2/a+ c+8/a+ d+/>c+
-#o4 f4/>c < d+8/a+ < c+16/g+ > d+/f+ c8/f < g+/>d+
-#o4 c+2/f a+8/>c+ c/d+
-#o5 c+4/f c8/d+ < a+16/>c+ < g+/> d+ < f8/>c < d+/g+
+piano "piano1":
 
+#1-4
+o2 a+16 > c+ c c+ < a+ r a+ > c c+ g+ f r
+o2 a+16 > c+ c c+ < a+ r a+ > c c+ g+ f r
+o2 a+16 > c+ c c+ < a+ r a+ > c c+ g+ f r
+o3 d+8 b+ a+ g+16 f+ f8 g+
 
-piano "piano2": o1 (volume 100)
+#5-8
+o2 a+16/>a+ c+ c/a+ c+ < a+/>a+ < r a+/>a+ c c+/a+ g+ f/a+ r
+o2 a+16 > c+ c c+ < a+ r a+ > c c+ g+ f r
+o4 c+16 r c+16 r c+16 r c+16 r c+16 r c+16 r
+o3 g+8/>d+ d+/>c < c+/a+ c16/g+ < a+/>f+ < g+8/>f c+/g+
 
-f+8 r r f+8 r r |
-f+8 r r f+8 r r |
-a+ r r a+ r r |
-o2 c/>c < g+ > c < g+/>d+ c16 < g+ > f c <
+#9-12
+o4 c+2/a+ f8 g+
+o4 d+4/a+ > c+8 < g+/>d+16 c+ < f8/>c < d+/>c+
+o4 c+2/a+
+o4 r2 r
 
-f+8 r r f+8 r r |
-f+8 r r f+8 r r |
-a+ r r a+ r r |
+#13-16
+o3 a+16 > c+ c c+ < a+ r a+ > c c+ g+ f r
+o3 a+16 > c+ c c+ < a+ r a+ > c c+ g+ f r
+o3 a+16 > c+ c c+ < a+ r a+ > c c+ g+ f r
+o4 d+8 b+ a+ g+16 f+ f8 g+
+
+#17-20
+o3 a+16/>a+2 c+16 c c+ < a+ r a+ > c c+ g+ f r
+o3 a+16 > c+ c c+ < a+ r a+ > c c+ g+ f8
+(quant 30) o4 d+16 f g+ a+ b+ >c+ d+ c+ < b+ a+ g+ f
+(quant 99) o3 g+8/>d+ d+/>c < c+/a+ c16/g+ < a+/> f+ < g+8/>f < f/>g+
+
+#21-24
+o4 c+2/a+ f8 g+
+o4 d+4/a+ > c+8 < g+/>d+16 c+ < f8/>c < d+/>c+
+o4 c+2./a+
+o4 c4. c+8/f f/a+ a+/>c+
+
+#25-28
+o5 c+2/f < a+8/>c+ c+/d+
+o5 c4/f < a+8/>d+ < g+16/>c+ < f+/>d+ < f8/>c < d+/g+
+o4 f2/a+ c+/a+8 d+/>c+
+o4 f4/>c < d+8/a+ c+16/g+ d+/f+ c8/f d+
+
+#29-32
+o4 c+2/f a+8/>c+ c/d+
+o5 c+4/f c8/d+ < a+16/>c+ < g+/>d+ <f8/>c < c+/g+
+o4 f4./a+2 < b4./>d+
+o4 d+4./f+ c+/>c+
+
+#33-36
+o4 b4./>d+16 d+ r d+ r d+ < a+4./>d+16 r d+ r d+ r
+o4 g+4./>d+16 d+ r d+ r d+ < f+4./>d+16 r f+ r g+ r
+o2 r4 r4 r4
+o2 r4 r4 r4
+
+#37-40
+o5 e32 f f+ g g+8 g+ g g g
+o5 r32 r e64 f f+ g g+8 g+16 r g+8 g16 f d+8
+o5 (volume 85) f24 r f r f r f r f r f r f r f r f r
+o4 (volume 100) r4 r4 r4
+
+#41-44
+o5 e32 f f+ g g+8 g+ g g g
+o3 d+8/>d+ c/>c < c+/a+ c/g+16 f+ < g+8/>f < g+/>g+
+o4 a+4 b8 > d+ c+ d+
+o5 f4 d+8 f+ f d+
+
+#45-48
+o5 f4 f+8 f16 f+ d+8 f
+o5 c+4 d+8 c16 c+ < a+8 g+
+o4 f4 f+8 g+4 a+8
+o4 f4 f+8 g+4 a+8
+
+#49-52
+o4 f16 f+ f4 > g16 r g r g8
+o5 r32 r e64 f f+ g g+8 g+16 r g+8 g16 f d+8
+V1: o4 a+4 b8 > d+ c+ d+
+V2: (volume 80) o5 f24 r f r f r f r f r f r f r f r f r
+(volume 100) o5 f4 d+8 f+ f d+
+
+#53-56
+o5 f4 f+8 f16 f+ d+8 f
+o5 c+4 d+8 c16 c+ < a+8 g+
+o4 f4 f+8 g+4 a+8
+o4 f4 f+8 g+4 a+8
+
+#57-60
+o4 f16 f+ f2~8
+o3 g+8/>d+ d+/>c < c+/a+ c16/g+ < a+/>f+ < g+8/>f c+/g+
+o4 c+2/a+ f8 g+
+o4 d+4/a+ > c+8 < g+/>d+16 c+ < f8/>c < d+/>c+
+
+#61-64
+o4 c+2./a+
+o4 c4. c+8/f f/a+ f+/>c+
+o5 c+2/f < a+/>c+8 c+/d+
+o5 c4/f < a+8/>d+ < g+16/>c+ < f+/>d+ < f8/>c < d+/g+
+
+#65-68
+o4 f2/a+ c+8/a+ d+/>c+
+o4 f4/>c < d+8/a+ < c+16/g+ > d+/f+ c8/f < g+/>d+
+o4 c+2/f a+8/>c+ c/d+
+o5 c+4/f c8/d+ < a+16/>c+ < g+/> d+ < f8/>c < d+/g+
+
+#69-72
+o4 f2/a+ f8/>c+ < g+/>d+
+o4 a+4/>f < g+8/>d+ < f16/>c+ c/d+ < g+8/>c < f/g+
+o4 c+1/a+
+
+piano "piano2": (volume 85)
+
+#1-4
+o1 f+8 r r f+8 r r
+o1 f+8 r r f+8 r r
+o1 a+ r r a+ r r
+o2 c/>c < g+ > c < g+/>d+ c16 < g+ > f c
+
+#5-8
+o1 f+8 r r f+8 r r
+o1 f+8 r r f+8 r r
+V1: o2 a+12~96 r a+ r a+16 r a+ r a+ r
+V2: o2 a+16 > c+ c c+ < a+ r a+ > c c+ g+ f r
 o2 g+8 d+ f g+ > c d+
 
+#9-12
 o2 f+16 > a+ c c+ < a+ f f+ > a+ < c c+ < a+ > d+
 o2 g+16 > > c < < d+ f g+ f d+8 f g+
 o2 a+16 > a+ d+ f c+ < f a+ > a+ d+ f c+ < f
 o2 a+16 > a+ d+ f c+ < f g+ > g+ < d+8 g+
 
-f+8 r r f+8 r r |
-f+8 r r f+8 r r |
-a+ r r a+ r r |
+#13-16
+o2 f+8 r r f+8 r r
+o2 f+8 r r f+8 r r
+o2 a+ r r a+ r r
 o3 c8 g+ > c < g+16 < g+ a+ > c d+ c
 
+#17-20
 o2 f+8 > > f+16 f+ < f+ r < f+8 > a+16 g+ a+ r
 o2 f+8 > > f+16 f a+ f < < f+ > > c+ < g+ < g+ a+ > c
-o2 a+ > c c+ d+ f a+ > c+ c < g+ f c+ c
-o2 g+8 d+ f g+ > c d+
+(quant 30) o2 a+ > c c+ d+ f a+ > c+ c < g+ f c+ c
+(quant 99) o2 g+8 d+ f g+ > c d+
 
+#21-24
 o2 f+16 > a+ c c+ < a+ f f+ > a+ c c+ <a+ > d+
 o2 g+16 > c <  d+ f g+ f d+8 f g+
 o2 a+16 > a+ d+ f c+ < f a+ > a+ d+ f c+ < f
-o2 a+16 > a+ d+ f c+ < a+ g+ d+ f8
+o2 a+16 > a+ d+ f c+ < a+ g+8 d+ f
 
+#25-28
 o2 d+16 > d+ < g+ a+ f+ d+ d+ > d+ < g+ a+ > c8
 o2 f16 > f < g+ > g+ f c < f > f < f+ > f+ < g+ > g+
 o2 f+16 > f+ c+ d+ f < f f+ > f+ c+ d+ f < f+
@@ -194,20 +215,14 @@ o2 a+16 > a+ d+ f c+ < a+ g+8 d+ f
 o2 d+16 > d+ < g+ a+ f+ d+ d+ > d+ < g+ a+ > c8
 o2 f16 > f < g+ > g+ f c < f > f < f+ > f+ < g+ > g+
 
-#65-58
+#65-68
 o2 f+16 > f+ c+ d+ f < f f+ > f+ c+ d+ f < f+
 o2 f16 > f < g+ > g+ f c < f > f < f+ > f+ < g+ > g+
 o2 d+16 > d+ < a+ > c c+ < f d+ > d+ < a+ > c c+ < d+
 o2 g+16 d+ > c < g+ > f c g+ < g+ > d+ g+ c g+
 
-
-piano "piano_aux": o3 (quant 30)
-
-#r8 r r r r r |
-#r8 r r r r r |
-#r8 r r r r r |
-#r8 r r r r r |
-#a+16 r a+ r a+ r a+ r a+ r a+ r >
-#r8 r r r r r |
-#c+16 r c+ r c+ r c+ r c+ r c+ r
-#r8 r r r r r |
+#69-72
+o2 f+16 > f+ c+ d+ f < f f+ > f+ c+ d+ f < f+
+o2 f16 > f < g+ > g+ f c < f > f < f+ > f+ < g+ > g+
+o2 a+16 > a+ d+ f c+ < f a+ > a+ d+ f c+ < f
+o2 a+12~96 r a+ r a+16 r a+ r a+ r
