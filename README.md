@@ -11,7 +11,7 @@ http://alda.io
 Documentation: https://github.com/alda-lang/alda
 
 
-### Currently Working On: ------
+### Currently Working On: Asgore - Tobyfox
 
 ### Some songs I want to work on:
 
@@ -20,8 +20,7 @@ Documentation: https://github.com/alda-lang/alda
 * Dancing Mad - Nobuo Uematsu
 * One-Winged Angel - Nobuo Uematsu
 * Probably everything from Final Fantasy
-* Chaconne - Bach
-* Gigue - Bach
+* Violin Partida No.2, Gigue - Bach
 * Divenire - Ludovico Einaudi
 * Mariage D'Amour - George Davidson
 * Main Title Theme from Westworld - Ramin Djawadi
