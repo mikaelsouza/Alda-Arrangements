@@ -1,0 +1,70 @@
+(tempo! 105)
+
+piano "piano1":
+
+#1-4 - Bergentrükung
+o3 r2
+o3 g+8/>e < r b/>g+ r
+
+o4 c+2/f+
+o3 f+8/>d+ < r b/f+ r
+
+o3 g+2/>e
+o3 f+8/>c+ < r b/>e r
+
+o4 d+2/<b16 r g+ r f+ r g+ r
+o3 e16/b r d+ r e/>c+ < r f+ r
+
+#5-8
+o3 g+2
+o3 g+8/>e r < b/>g+ r
+
+o4 c+2/f+
+o4 d+/b8 < r b/>f+ r
+
+o4 g+2/d+4 e4 d+8/g+ c+/f+
+o3 b/>g+ d+/b
+
+o4 d+4/>c+ e
+o5 {d+ e d+}8 c+ < b > d+
+
+#9
+o5 c+2
+
+#10-13 - Asgore
+(tempo! 116)
+
+piano "piano2":
+
+#1-4 - Bergentrükung
+o3 r2
+o3 c+8 r d+ r
+
+o2 a2
+o2 b8 > r d+ r
+
+o3 c+2
+o2 f+8 r b r
+
+o2 a2
+o2 f+8 r b r
+
+#5-8
+o3 c+2
+o3 c+8 r d+ r
+
+o2 a2
+o2 b8 > r d+ r
+
+o3 c+2
+o2 g+8 r b r
+
+o2 a2/r4 >> c+
+o2 f+4/>b8 e < b4/>f+8 b
+
+#9
+
+o3 c+2/g+
+
+# 10-13 - Asgore
+(tempo 116)
