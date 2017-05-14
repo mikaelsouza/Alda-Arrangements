@@ -31,10 +31,99 @@ o5 {d+ e d+}8 c+ < b > d+
 #9
 o5 c+2
 
-#10-13 - Asgore
+
 (tempo! 116)
 
-piano "piano2":
+#10-13 - Asgore
+
+o3 r2
+o3 g+8/>e < r b/>g+ r
+
+o4 c+4/f+ r8 < b/>g+
+o3 e6~48/>c+ < f+/>d+ < g+8/>e
+
+o4 c+2/g+
+o3 g+8/>e < r b/>g+ r
+
+o4 c+4/f+ r8 < b/>g+
+o3 g+6~48/>c+ < b/>d+ e8/b
+
+#14-17
+
+o4 c+2/g+
+o3 g+8/>e < r a/>f+/a r
+
+o3 b4/>f+/b r8 c+/g+/>c+
+o3 e6~48/>c+/e < f+/>d+/f+ < g+8/e/g+
+
+o3 b4/>f+/b r8 c+/g+/>c+
+o3 f+6~48/b/>f+ d+/b/>d+ << b8/>f+/b
+
+o4 c+2~4/e/g+/>c+
+o3 r8 a16/>f+/a < g+/>e/g+
+
+#18-21
+
+o3 f+2/>d+/f+
+o3 g+8/>e < r b/>g+ r
+
+o4 c+4/f+ r8 < b/>g+
+o3 e6~48/>c+ < f+/>d+ < g+8/>e
+
+o4 c+2/g+
+o3 g+8/>e < r b/>g+ r
+
+o4 c+4/f+ r8 < b/>g+
+o3 g+6~48/>c+ < b/>d+ e8/b
+
+#22-25
+
+o4 c+2/g+
+o3 g+8/>e < r a/>f+/a r
+
+o3 b4/>f+/b r8 c+/g+/>c+
+o3 e6~48/>c+/e < f+/>d+/f+ < g+8/e/g+
+
+o3 b4/>f+/b r8 c+/g+/>c+
+o3 f+6~48/b/>f+ d+/b/>d+ << b8/>f+/b
+
+o4 c+2~4/e/g+/>c+
+o3 r8 a16/>f+/a < g+/>e/g+
+
+#26-29
+
+o3 f+2/>d+/f+
+o3 g+8/>e < r f+/>d+ r
+
+o4 c+16 e d+ e c+8 r16 c+8
+o4 d+16 e b g+8 r
+
+o4 c+16 e d+ e c+8 r16 c+8
+o4 d+16 e b g+8 r
+
+o4 c+16 e d+ e c+8 r16 c+8
+o4 d+16 e b g+8 r
+
+#30-33
+
+o3 b8. > f+16~8 e8
+o4 {c+ d+}16 c+8 < b8 {b > c+}16 d+8
+
+
+o4 c+16 e d+ e c+8 r16 c+8
+o4 d+16 e b g+8 r
+
+o4 c+16 e d+ e c+8 r16 c+8
+o4 d+16 e b g+8 r
+
+o4 c+16 e d+ e c+8 r16 c+8
+o4 d+16 e b g+8 r
+
+#34-37
+o3 b8. > f+16~8 e8
+o4 {c+ d+}16 c+8 < b8 {b > c+}16 d+8
+
+piano "piano2": (volume 85)
 
 #1-4 - Bergentrükung
 o3 r2
@@ -66,4 +155,78 @@ o2 f+4/>b8 e < b4/>f+8 b
 
 o3 c+2/g+
 
-# 10-13 - Asgore
+(tempo! 116)
+#10-13 - Asgore
+
+o3 r2
+o3 c+8 r d+ r
+
+o2 a16 a > c+ < a a > d+ < a > e
+o2 a16 a > f+ < a a > e < a a
+
+o2 a16 a > d+ < a a > e < a > e
+o2 a16 a > e < a b > c+ d+ < b
+
+o3 c+16 c+ g+ c+ c+ f+ e < b
+o3 c+16 c+ g+ c+ c+ f+ e < b
+
+#14-17
+
+o3 c+16 c+ g+ c+ c+ f+ e < b
+o2 c+4/>c+ << b/>b
+
+o1 f+16/>f+ f+ > c+ < f+ f+ f+ > f+ g+
+o2 f+16 f+ > c+ < f+ f+ f+ > f+ g+
+
+o1 g+16/>g+ g+ > d+ < g+ > f+ < g+ > g+ b
+o2 g+ g+ > d+ < g+ > f+ < g+ > g+ b
+
+o1 a16/>a a > e < a > f+ < a > e < a
+o3 g+16 < a > e < a > f+ < a > f+ e
+
+#18-21
+o1 g+16/>g+ g+ b g+ > f+ < a > d+ > f+
+o3 c+8 r d+ r
+
+o2 a16 a > c+ < a a > d+ < a > e
+o2 a16 a > f+ < a a > e < a a
+
+o2 a16 a > d+ < a a > e < a > e
+o2 a16 a > e < a b > c+ d+ < b
+
+o3 c+16 c+ g+ c+ c+ f+ e < b
+o3 c+16 c+ g+ c+ c+ f+ e < b
+
+#22-25
+
+o3 c+16 c+ g+ c+ c+ f+ e < b
+o2 c+4/>c+ << b/>b
+
+o1 f+16/>f+ f+ > c+ < f+ f+ f+ > f+ g+
+o2 f+16 f+ > c+ < f+ f+ f+ > f+ g+
+
+o1 g+16/>g+ g+ > d+ < g+ > f+ < g+ > g+ b
+o2 g+ g+ > d+ < g+ > f+ < g+ > g+ b
+
+o1 a16/>a a > e < a > f+ < a > e < a
+o3 g+16 < a > e < a > f+ < a > f+ e
+
+#26-29
+
+o1 g+16/>g+ g+ b g+ > f+ < a > d+ > f+
+o2 c+8/>c+ r <<b/>b r
+
+(quant 70)
+
+o1 a8./>a8. a4 a8. a8 a b
+o1 a8./>a8. a4 a8. a8 a b
+o2 c+8./>c+8. c+4 c+8. c+8 c+ < b
+
+#30-33
+o1 g+8./>g+8. g+8. g+8 b8. g+8. b8
+o1 a8./>a8. a4 a8. a8 a b
+o1 a8./>a8. a4 a8. a8 a b
+o2 c+8./>c+8. c+4 c+8. c+8 c+ < b
+
+#34-37
+o1 g+8./>g+8. g+8. g+8 b8. g+8. b8
