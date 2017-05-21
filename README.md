@@ -11,7 +11,7 @@ http://alda.io
 Documentation: https://github.com/alda-lang/alda
 
 
-### Currently Working On: Asgore - Tobyfox
+### Currently Working On: Asgore - Tobyfox (And Maybe Another Marbule from Chrono Cross)
 
 ### Some songs I want to work on:
 
@@ -25,3 +25,4 @@ Documentation: https://github.com/alda-lang/alda
 * Mariage D'Amour - George Davidson
 * Main Title Theme from Westworld - Ramin Djawadi
 * Main Title Theme from Game of Thrones - Ramin Djawadi
+* Things from Chrono Cross and Chrono Trigger too, right?
