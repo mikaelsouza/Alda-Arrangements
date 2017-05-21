@@ -2,6 +2,97 @@
 
 wait = r1 r1 r1 r1
 
+acoustic-bass:
+
+o2 g1..
+o2 d4 g1..
+o2 d4 g1..
+o2 d4 g1..
+
+o2 d4 g1..
+o2 d4 g1..
+o2 d4 g1..
+o2 d4 g1..
+
+o2 d4 g1..
+o2 d4 g1..
+o2 d4 g1..
+o2 d4 g1..
+
+o2 d4 g1..
+o2 d4 g1..
+o2 d4 g1..
+o2 d4 g1..
+
+o2 d4 g1..
+o2 d4 g1..
+o2 d4 g1..
+o2 d4 g1..
+
+
+acoustic-guitar "guitar3":
+
+(volume 80)
+
+o3 g4 d8 g > c4 < b4.
+o3 d8 g a4 c8 g a
+
+o3 g4 d8 g > c4 < b4.
+o3 d8 g a4 c8 g a
+
+o3 g4 d8 g > c4 < b4.
+o3 d8 g a4 c8 g a
+
+o3 g4 d8 g > c4 < b4.
+o3 d8 g a4 c8 g a
+
+o3 g4 d8 g > c4 < b4.
+o3 d8 g a4 c8 g a
+
+o3 g4 d8 g > c4 < b4.
+o3 d8 g a4 c8 g a
+
+o3 g4 d8 g > c4 < b4.
+o3 d8 g a4 c8 g a
+
+o3 g4 d8 g > c4 < b4.
+o3 d8 g a4 c8 g a
+
+o3 g4 d8 g > c4 < b4.
+o3 d8 g a4 c8 g a
+
+o3 g4 d8 g > c4 < b4.
+o3 d8 g a4 c8 g a
+
+o3 g4 d8 g > c4 < b4.
+o3 d8 g a4 c8 g a
+
+o3 g4 d8 g > c4 < b4.
+o3 d8 g a4 c8 g a
+
+o3 g4 d8 g > c4 < b4.
+o3 d8 g a4 c8 g a
+
+o3 g4 d8 g > c4 < b4.
+o3 d8 g a4 c8 g a
+
+o3 g4 d8 g > c4 < b4.
+o3 d8 g a4 c8 g a
+
+o3 g4 d8 g > c4 < b4.
+o3 d8 g a4 c8 g a
+
+o3 g4 d8 g > c4 < b4.
+o3 d8 g a4 c8 g a
+
+o3 g4 d8 g > c4 < b4.
+o3 d8 g a4 c8 g a
+
+o3 g4 d8 g > c4 < b4.
+o3 d8 g a4 c8 g a
+
+o3 g4 d8 g > c4 < b4.
+o3 d8 g a4 c8 g a
 acoustic-guitar "guitar1":
 
 o4 g2 > d c d
@@ -13,7 +104,7 @@ o4 g2 > d c d
 o4 g2 > d c d
 o4 g2 > d c d
 o4 g2 > d c d
-
+#
 o4 g2 > d c d
 o4 g2 > d c d
 o4 g2 > d c d
@@ -28,6 +119,7 @@ o4 g2 > d c d
 o4 g2 > d c d
 o4 g2 > d c d
 o4 g2 > d c d
+
 
 viola "guitar2":
 
@@ -39,18 +131,11 @@ o4 c4 d f f e d8 c d e d4
 o4 c4 d g g a g8 f e f d4
 o4 c4 d > c c < b8 a g4 f g2
 
+(volume 90)
 o4 d4 g g a g8 f e f d4
 o4 c4 d f f e d8 c d e d4
 o4 c4 d g g a g8 f e f d4
 o4 c4 d > c c < b8 a g4 f g2
-
-acoustic-bass:
-
-# EXPERIMENT (Sounds terrible btw ):
-
-# [o2 g2/r4 g8 b > d4 o3 c-2 c-8 c d c < b > c] * 12
-
-#Little Flute
 
 flute:
 
@@ -63,7 +148,19 @@ o5 c4 (quant 50) d e f e (quant 90) d c d2
 o5 d2 e f4~8 e8 d4
 o5 (quant 50) c4 d e f g (quant 90) f8 e d c d2
 
+(volume 100)
+
 o4 b2 > c < a > c < b g a f
 o4 b2 > c < a > c < b g a1
 o4 b2 > c < a > c < b g a f
 o4 b2 > c < a f g1~1
+
+#o4 a2. a4 b4~8 > c8 d4 r2
+#o4 a4 r a4 b > c < b g
+#o4 a2. a4 b4~8 > c8 d4 < b
+#o5 e f e d c d c < b
+#
+#o4 a2. a4 b4~8 > c8 d4 r2
+#o4 a4 r a4 b > c < b g
+#o4 a2. a4 b4~8 > c8 d4 < b
+#o4 a1~2
